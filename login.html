@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+
+<body>
+    <h2>用户登录</h2>
+    <form action="/api/login" method="POST">
+        <div>
+            <label for="username">用户名/邮箱：</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">登录</button>
+        </div>
+        <br>
+        <div>
+            <a href="forgot_password.html">忘记密码？</a> |
+            <a href="register.html">注册新账号</a>
+        </div>
+    </form>
+</body>
+
+</html>
